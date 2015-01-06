@@ -3,3 +3,4 @@ sqlite3
 gunicorn
 Werkzeug
 Jinja2
+Flask-SQLAlchemy

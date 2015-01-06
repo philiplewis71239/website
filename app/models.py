@@ -1,10 +1,17 @@
 import sqlite3 as sql
 from app import app
+from app import db
 from datetime import datetime
 # class Logs(db.Model):
 #     id = db.Column(db.Integer, primary_key=True)
 #     ip_address = db.Column(db.String(40))
 #     timestamp = db.Column(db.String(120))
+
+
+class Logs(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+	timestamp = db.Column(db.DateTime, default=datetime.now())
+
 
 def insert_log(ip_addr):
     with sql.connect("database.db") as con:
