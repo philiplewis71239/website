@@ -1,0 +1,18 @@
+from flask.ext.sqlalchemy import SQLAlchemy
+from app import app
+
+
+app.config['DATABASE'] = 'database.db'
+db = SQLAlchemy(app)
+
+class Logs(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    ip_address = db.Column(db.String(40))
+    timestamp = db.Column(db.String(120))
+    def __init__(self,ip_address,timestamp):
+        self.ip_address = ip_address
+        self.timestamp = timestamp
+
+    def __repr__(self):
+        return '<Logs %r>' % self.ip_address
+
