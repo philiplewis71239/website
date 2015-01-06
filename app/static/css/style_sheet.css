@@ -1,0 +1,208 @@
+/* CSS Document */
+body{
+	padding:0; margin:0; background:#0b0600;
+	background-image:url(../images/v-bg.jpg);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color:#000000;
+	
+	}
+div, p, ul, form, label{
+	padding:0; margin:0;
+	}
+	
+img{
+	behavior: url("pngbehavior.htc");
+	border:0;
+	}
+ul{
+	list-style-type:none;
+		}
+p{
+	padding:0; margin:0;
+	font-size:30px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+h1{
+padding:0; margin:0;
+font-size:30px;
+margin-bottom:10px;
+margin-top:10px;
+color:#9A6D1A;
+}
+h2, h3{
+padding:0; margin:0;
+color:#9A6D1A;
+font-size:16px;
+margin-bottom:0px;
+margin-top:10px;
+
+}
+
+.box{
+border-color:#FFFFFF;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+margin-right:8px;
+}
+#header {
+position:absolute;
+right:0px;
+align:"right";
+}
+ { 
+width:1000px;
+position:relative;
+min-height:600px;
+float:left;
+background-image:url(../images/top_bg.jpg);
+background-repeat:no-repeat;
+}
+.big_txt{
+font-size:16px;
+line-height:20px;
+}
+.logo{
+position:relative;
+align:"left";
+top:120px;
+}
+.logo_two{
+position:absolute;
+right:0px;
+align:"right";
+top:120px;
+}
+ .girls {
+position:absolute;
+}
+.txt_bog{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+/*margin-left: auto;
+margin-right:auto;
+top: 490px;
+width: 6em;*/
+}
+ .content_txt{
+position:relative;
+width:900px;
+text-align: center;
+min-height:400px;
+margin-top:500px;
+
+}
+  .bg_{
+position:absolute;
+left:0px;
+top:0px;
+width:1000px;
+min-height:1100px;
+}
+  .bottom{
+position:relative;
+width:900px;
+min-height:100px;
+/*left:50%;*/
+text-align:center;
+color:#FFFFFF;
+float:left;
+margin-top:50px;
+left:10%;
+}
+  .bottom a{
+font-size:14px;
+color:#FFFFFF;
+text-decoration:none;
+}
+  .bottom a:hover{
+text-decoration:underline;
+color:#CCCCCC;
+}
+
+  .content_txt .description{
+ 	vertical-align: middle;
+ 	text-align:center;
+ 	left:10%;
+}
+
+ .content_txt .school_girl{
+	float:left;
+	left:10%;
+}
+
+ .content_txt .lips{
+	float:right;
+	left:10%;
+}
+
+ a{
+font-size:16px;
+color:#FFFFFF;
+letter-spacing:1px;
+text-decoration:none;
+}
+ a:hover{
+text-decoration:underline;
+}
+ .menu_nav ul li{
+display:inline;
+list-style:none;
+padding-left:13px;
+padding-right:13px;
+}
+ .txt_left{
+position:relative;
+width:750px;
+height:80px;
+float:left;
+}
+ .txt_right{
+position:relative;
+width:150px;
+height:80px;
+float:left;
+font-size:18px;
+text-align:right;
+}
+ a:hover{
+text-decoration:underline;
+}
+/*------- Menu Section -----------*/
+
+.previous{width:330px; color:#FFFFFF;
+height:35px;
+text-align:left;
+float:left;
+margin-left:60px;
+}
+.next{ color:#FFFFFF; 
+width:330px;
+height:35px;
+text-align:right;
+float:left;
+margin-right:60px;
+	}
+
+.next a{color:#FFFFFF; font-size:24px;}
+.previous a{color: #FFFFFF; font-size:24px;}
+		
+.box_{
+border-color:#CCCCCC;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+
+}
+.box_1{
+border-color:#FFFFFF;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+}	
+
+
+.enter_ a{color:#FFFFFF; font-size:24px;}

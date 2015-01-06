@@ -1,0 +1,179 @@
+/* CSS Document */
+body{
+	padding:0; margin:0; background:#0b0600;
+	background-image:url(../images/v-bg.jpg);
+	background-repeat:repeat-x;
+		color:#FFFFFF;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		background-color:#000000;
+		
+	}
+div, p, h1, h2, h3, ul, form, label{
+	padding:0px; margin:0px;
+	}
+	
+img{
+	behavior: url("pngbehavior.htc");
+	border:0;
+	}
+ul{
+	list-style-type:none;
+		}
+		p{margin-bottom:10px; margin-top:10px;}
+h1{
+font-size:30px;
+margin-bottom:10px;
+margin-top:10px;
+color:#9A6D1A;
+}
+h2, h3{
+color:#9A6D1A;
+font-size:16px;
+margin-bottom:0px;
+margin-top:10px;
+
+}
+
+.box{
+border-color:#FFFFFF;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+margin-right:8px;
+}
+#header {
+position:absolute;
+right:0px;
+align:"right";
+}
+#main { 
+width:1000px;
+position:relative;
+min-height:600px;
+float:left;
+background-image:url(../images/top_bg.jpg);
+background-repeat:no-repeat;
+}
+.big_txt{
+font-size:16px;
+line-height:20px;
+}
+#main .logo{
+position:absolute;
+left:600px;
+top:120px;
+}
+#main .txt_bog{
+width:450px;
+height:200px;
+position:absolute;
+left:500px;
+top:300px;
+}
+#main .content_txt{
+position:relative;
+width:900px;
+margin-left:50px;
+min-height:400px;
+left:0px;
+margin-top:500px;
+float:left;
+}
+#main  .bg_{
+position:absolute;
+left:0px;
+top:0px;
+width:1000px;
+min-height:1100px;
+}
+#main  .bottom{
+position:relative;
+width:900px;
+min-height:100px;
+text-align:center;
+color:#FFFFFF;
+float:left;
+margin-top:50px;
+}
+#main  .bottom a{
+font-size:14px;
+color:#FFFFFF;
+text-decoration:none;
+}
+#main  .bottom a:hover{
+text-decoration:underline;
+color:#CCCCCC;
+}
+
+#main .menu_nav{
+position:absolute;
+top:60px;
+left:360px;
+width:651px;
+height:30px;
+}
+#main a{
+font-size:16px;
+color:#FFFFFF;
+letter-spacing:1px;
+text-decoration:none;
+}
+#main a:hover{
+text-decoration:underline;
+}
+#main .menu_nav ul li{
+display:inline;
+list-style:none;
+padding-left:13px;
+padding-right:13px;
+}
+#main .txt_left{
+position:relative;
+width:750px;
+height:80px;
+float:left;
+}
+#main .txt_right{
+position:relative;
+width:150px;
+height:80px;
+float:left;
+font-size:18px;
+text-align:right;
+}
+#main a:hover{
+text-decoration:underline;
+}
+/*------- Menu Section -----------*/
+
+.previous{width:330px; color:#FFFFFF;
+height:35px;
+text-align:left;
+float:left;
+margin-left:60px;
+}
+.next{ color:#FFFFFF; 
+width:330px;
+height:35px;
+text-align:right;
+float:left;
+margin-right:60px;
+	}
+
+.next a{color:#FFFFFF; font-size:24px;}
+.previous a{color: #FFFFFF; font-size:24px;}
+		
+.box_{
+border-color:#CCCCCC;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+
+}
+.box_1{
+border-color:#FFFFFF;
+border-style:double; 
+border-width: 1px 1px 1px 1px;
+}	
+
+
+.enter_ a{color:#FFFFFF; font-size:24px;}

@@ -1,0 +1,43 @@
+from flask import render_template, request, jsonify
+from models import Logs, db
+from app import app
+from datetime import datetime
+import sqlite3
+
+@app.route("/", methods=["POST","GET"])
+def gateway():
+    #db.create_all()
+    ip = request.remote_addr
+    timing = datetime.now()
+    conn = sqlite3.connect("database.db")
+    c = conn.cursor()
+    c.execute("INSERT INTO logs (ip_address,timestamp) VALUES (?,?)", (ip,timing))
+    conn.commit()
+    conn.close()
+    return render_template("gateway.html")
+
+
+@app.route("/index", methods=["POST","GET"])
+def index():
+    #db.create_all()
+    ip = request.remote_addr
+    timing = datetime.now()
+    conn = sqlite3.connect("database.db")
+    c = conn.cursor()
+    c.execute("INSERT INTO logs (ip_address,timestamp) VALUES (?,?)", (ip,timing))
+    conn.commit()
+    conn.close()
+    return render_template("index.html")
+
+# @app.route("/girls", methods=["POST","GET"])
+# def girls():
+#     pass
+
+# @app.route("/rates", methods=["POST","GET"])
+# def rates():
+#     pass
+
+# @app.route("/about", methods=["POST","GET"])
+# def about():
+#     pass
+
