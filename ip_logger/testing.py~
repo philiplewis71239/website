@@ -1,5 +1,0 @@
-from flask import request, jsonify, Flask
-
-@app.route("/", methods=["GET"])
-def index():
-    return jsonify({'ip': request.remote_addr}), 200
